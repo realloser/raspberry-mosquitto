@@ -17,5 +17,5 @@ Docker pull panuwitp/mosquitto-arm
 ## Run
 From the root folder run
 ```
-docker run -it -d --hostname mosquitto-arm --name mosquitto-arm --restart always -p 1883:1883 -p 9001:9001 -v ~/mosquitto/config/mosquitto.conf:/mosquitto/config/mosquitto.conf -v /mosquitto/data -v /mosquitto/log panuwitp/mosquitto-arm
+docker run -it -d --hostname mosquitto-arm --name mosquitto-arm --restart always -p 1883:1883 -p 9001:9001 -v ~/mosquitto/config:/mosquitto/config -v /mosquitto/data -v /mosquitto/log panuwitp/mosquitto-arm
 ```
