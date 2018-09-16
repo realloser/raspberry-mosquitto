@@ -13,6 +13,9 @@ Get the docker container
 Docker pull panuwitp/mosquitto-arm
 ```
 
+## AWS Bridge
+See readme in [config/conf.d](/config/conf.d/README.md)
+
 
 ## Run
 From the root folder run
